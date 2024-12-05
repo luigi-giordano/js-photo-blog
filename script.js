@@ -11,9 +11,9 @@ function printCard(postcard){
   let {title, url} = postcard;
 
   document.getElementById('row-card').innerHTML += 
-        `<div class="col col-lg-4 col-md-6 mb-4">
+        `<div class="col col-lg-4 col-md-6 col-sm-12 mb-4 px-3">
           <div class="card p-1 my-2">
-            <div class="card-img-container position-relative">
+            <div class="card-img-container">
               <img src="img/pin.svg" class="pin" alt="pin">
               <img src="${url}" class="card-img-top" alt="img" style="object-fit: cover; width: 100%; height: 100%;">
             </div>
