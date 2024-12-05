@@ -17,6 +17,7 @@ header{
   background-color: white;
   font-family: 'Dancing Script', cursive;
   font-size: 24px;
+  box-shadow: 0 5px 5px rgba(26, 25, 25, 0.1);
 }
 .pin{
   width: 30px;
