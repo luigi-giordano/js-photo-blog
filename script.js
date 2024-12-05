@@ -1,0 +1,1 @@
+const apiUrl = 'https://jsonplaceholder.typicode.com/photos?_limit=6'
