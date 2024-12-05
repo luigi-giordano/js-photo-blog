@@ -14,7 +14,6 @@ header{
   font-size: 4rem;
 }
 .col{
-  background-color: white;
   font-family: 'Dancing Script', cursive;
   font-size: 24px;
   box-shadow: 0 5px 5px rgba(26, 25, 25, 0.1);
@@ -27,5 +26,10 @@ header{
   transform: translateX(-50%);
 }
 .card{
+  height: 100%;
+  text-transform: capitalize;
   position: relative;
+}
+.bg-white{
+  background-color: white;
 }
