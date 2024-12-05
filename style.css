@@ -4,15 +4,18 @@
   box-sizing: border-box;
 }
 body{
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  background-image: url('img/cork.png');
+}
+header{
+  font-family: "Pangolin", cursive;
+  font-style: italic;
+  
 }
 .title {
   font-size: 4rem;
 }
-main{
-  background-image: url('img/cork.png');
-  background-size: cover; /* Copre tutto lo spazio disponibile */
-  background-position: center; /* Centra l'immagine */
-  background-repeat: no-repeat; /* Evita che l'immagine si ripeta */
-  height: 100vh; /* Imposta l'altezza del main per coprire tutta la finestra */
+.col{
+  background-color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
 }
