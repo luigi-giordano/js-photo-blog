@@ -9,7 +9,6 @@ body{
 header{
   font-family: "Pangolin", cursive;
   font-style: italic;
-  
 }
 .title {
   font-size: 4rem;
@@ -18,4 +17,14 @@ header{
   background-color: white;
   font-family: 'Dancing Script', cursive;
   font-size: 24px;
+}
+.pin{
+  width: 30px;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.card{
+  position: relative;
 }
