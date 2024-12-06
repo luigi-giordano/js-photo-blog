@@ -3,7 +3,6 @@ let cardDaStampare = document.getElementById('row-card')
 
 axios.get(apiUrl)
 .then(res => {
-  // console.log(res.data)
   res.data.forEach(postcard => printCard(postcard))
 })
 

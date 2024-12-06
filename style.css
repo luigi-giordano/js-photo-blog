@@ -55,16 +55,15 @@ header{
   color: white;
 }
 .overlay button {
-  padding: 10px 20px;
   font-size: 20px;
-  border: none;
   background-color: #f2f0f0;
   color: rgb(10, 9, 9);
   cursor: pointer;
   border-radius: 5px;
-  position: absolute;
-  top: 5;
-  left: 10;
+  margin-bottom: 40px;
+  margin-left: 40%;
+  width: 100px;
+  height: 40px;
 }
 .overlay button:hover {
   background-color: #929292;
