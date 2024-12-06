@@ -36,6 +36,7 @@ header{
   transform: scale(1.2) rotate(10deg);
   box-shadow: 20px 30px rgba(26, 25, 25, 0.3);
   z-index: 1;
+  cursor: pointer;
 }
 .bg-white{
   background-color: white;
