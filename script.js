@@ -1,10 +1,10 @@
 // L'obiettivo finale di questo codice è caricare le immagini da un'API e mostrarle come card.
 
 // Flusso di lavoro:
-// 1 Una richiesta all'API scarica le immagini.
-// 2 Le immagini vengono mostrate come card.
+// 1 Effettuare una richiesta all'API per scaricare le immagini.
+// 2 Mostrare le immagini come card.
 // 3 Cliccando un'immagine, si apre un overlay con l'immagine ingrandita.
-// 4 Chiudiamo l'overlay cliccando sul pulsante di chiusura.
+// 4 Chiudere l'overlay cliccando sul pulsante di chiusura.
 
 // URL dell'API
 const apiUrl = 'https://jsonplaceholder.typicode.com/photos?_limit=6'
@@ -12,7 +12,8 @@ const apiUrl = 'https://jsonplaceholder.typicode.com/photos?_limit=6'
 // Seleziono l'elemento HTML dove verranno aggiunte le card
 let cardDaStampare = document.getElementById('row-card');
 
-// Effettuo una richiesta GET all'API utilizzando Axios, la quale preleva i dati dall'API indicata
+// Effettuo una richiesta GET all'API utilizzando Axios, la quale preleva i dati dall'API indicata e
+// ci restituirà un oggetto asincrono
 axios.get(apiUrl)
 .then(res => {
 
@@ -37,7 +38,7 @@ function printCard(postcard){
   </div>`;
   }
 
-// Ottenuti i dati, li itero richiamando la funzione printCard che li stampa dentro il contenitore
+// Ottenuti i dati restituiti dall'API, li itero richiamando la funzione printCard che li stampa dentro il contenitore
 res.data.forEach(postcard => printCard(postcard))
 
 // Variabili
