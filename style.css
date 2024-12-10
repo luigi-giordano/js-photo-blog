@@ -23,7 +23,7 @@ header{
   position: absolute;
   top: -10px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%); // Per correggere l'allineamento
 }
 .bg-white{
   background-color: white;
